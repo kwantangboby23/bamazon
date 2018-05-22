@@ -27,7 +27,7 @@ INSERT INTO products(ProductName, Department, Price, StockQuantity)
 VALUE ("Chicken", "Food", 5, 40);
 
 INSERT INTO products(ProductName, Department, Price, StockQuantity)
-VALUE ("Turkey", "Food", 8, 25);
+VALUE ("Turkey", "Food", 8, 4);
 
 INSERT INTO products(ProductName, Department, Price, StockQuantity)
 VALUE ("Coffee", "Drink", 2, 100);
@@ -39,7 +39,7 @@ INSERT INTO products(ProductName, Department, Price, StockQuantity)
 VALUE ("Juice", "Drink", 3, 80);
 
 INSERT INTO products(ProductName, Department, Price, StockQuantity)
-VALUE ("Tabasco", "Sauce", 4, 50);
+VALUE ("Tabasco", "Sauce", 4, 3);
 
 INSERT INTO products(ProductName, Department, Price, StockQuantity)
 VALUE ("A1", "Sauce", 5, 45);

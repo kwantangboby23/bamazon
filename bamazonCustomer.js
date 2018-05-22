@@ -27,10 +27,10 @@ function readProducts() {
     console.log("Selecting all products...\n");
     connection.query("SELECT * FROM products", function (err, res) {
         if (err) throw err;
-        console.log("-----------------Welcome to Bamazon-----------------\n");
-        console.log("\n---------------------------------------------");
+        console.log("-----------------------------------Welcome to Bamazon------------------------------\n");
+        console.log("----------------------------------------------------------------------------------");
         for (i = 0; i < res.length; i++) {
-            console.log("ID: " + res[i].id + "\nProduct name: " + res[i].ProductName + "\nDepartment: " + res[i].Department + "\nPrice: " + res[i].Price + "\nStockQuantity: " + res[i].StockQuantity + "\n---------------------------------------------");
+            console.log("ID: " + res[i].id + " | Product name: " + res[i].ProductName + " | Department: " + res[i].Department + " | Price: " + res[i].Price + " | StockQuantity: " + res[i].StockQuantity + "\n----------------------------------------------------------------------------------");
         }
 
 
@@ -89,7 +89,7 @@ function start() {
                         ],
                         function (err, res) {
                             if (err) throw err;
-                            console.log("Update" + "\n---------------------------------------------" + "\nID: " + wantToBuy.id + "\nPrpduct Name: " + wantToBuy.ProductName + "\nDepartment: " + wantToBuy.Department + "\nPrice: " + wantToBuy.Price + "\nStockQuantity: " + remainQuantity +
+                            console.log("Update Products Data" + "\n---------------------------------------------" + "\nID: " + wantToBuy.id + "\nProduct Name: " + wantToBuy.ProductName + "\nDepartment: " + wantToBuy.Department + "\nPrice: " + wantToBuy.Price + "\nStockQuantity: " + remainQuantity +
                                 "\n---------------------------------------------"
                             );
                             console.log("How many items have been sold?\n" + answer.quantity + " have been sold" + "\n---------------------------------------------");
