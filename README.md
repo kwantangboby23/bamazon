@@ -5,4 +5,6 @@ The app will take in orders from customers and deplete stock from the store's in
 
 <p><a href="bamazonCustomer.mov">Link to bamazonCustomer</a></p>
 
-<iframe src="https://giphy.com/embed/EBDzDFtxjbaP9DWI1e" width="480" height="308" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/EBDzDFtxjbaP9DWI1e">via GIPHY</a></p>
+![](bamazonManager.gif)
+
+![bamazonmanager](https://user-images.githubusercontent.com/35154056/40342729-ef4977b6-5d51-11e8-9dab-668475c13d92.gif)
